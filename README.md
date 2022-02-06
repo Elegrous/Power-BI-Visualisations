@@ -1,2 +1,3 @@
-# Power-BI-Visualisations
-Power BI Visualisations
+#PowerBI
+Power BI Visualisations, using Excel
+Exercise Analysis
