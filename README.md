@@ -1,6 +1,6 @@
 # Power BI "Exercise Analysis"
 &#x1F4D7;
-Power BI Visualisation, using Excel 
+Power BI Visualisation from XML file
 
 ## DataSourse: Apple Health App
 - Open the Health app on iPhone.
