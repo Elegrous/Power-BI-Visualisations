@@ -2,7 +2,7 @@
 &#x1F4D7;
 Power BI Visualisation from XML file
 
-## DataSourse: Apple Health App
+### DataSourse: Apple Health App
 - Open the Health app on iPhone.
 - Tap on your profile icon in the top right corner.
 - Scroll down to the bottom of the Health profile and tap on “Export Health Data”
@@ -15,3 +15,5 @@ Power BI Visualisation from XML file
 - In the 'Get & Transform' data group, click on the 'Get Data' option.
 - Go to the 'From file' option.
 - Click on 'From XML'
+
+### Data Preparation
