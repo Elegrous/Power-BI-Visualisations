@@ -17,3 +17,17 @@ Power BI Visualisation from XML file
 - Click on 'From XML'
 
 ### Data Preparation
+1. From export.xml choose "Workout" data.
+2. Create a Table "Calendar": <br />
+```diff
+Calendar = CALENDAR(MIN('Workout'[Attribute:creationDate]),MAX('Workout'[Attribute:creationDate]))
+```
+3. Create a Table "ActivityTypes":
+```diff
+ActivityTypes = DISTINCT('Workout'[Attribute:workoutActivityType])
+```
+Add New column to the Table:
+```diff
+ActivityType = RIGHT('ActivityTypes'[Attribute:workoutActivityType],LEN('ActivityTypes'[Attribute:workoutActivityType])-LEN("HKWorkoutActivityType"))
+```
+4. Add relationships between tables.
