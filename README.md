@@ -79,3 +79,4 @@ DIVIDE((CurrentWeek - PreviousWeek), PreviousWeek)
 ### Data Visualization
 ![image](https://user-images.githubusercontent.com/44158648/153914148-586313c3-5ce7-41bf-bfd2-05617e44e919.png)
 
+File "Exercise_Analysis.pbix" is attached
